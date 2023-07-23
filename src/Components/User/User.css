@@ -1,0 +1,177 @@
+*{
+    margin:0px;
+    padding: 0;
+}
+.container-user{
+    /* width:350px; */
+    flex :2.5;
+    background-color:#fafafa;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.user_details{
+    margin-top: 45px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+}
+
+.image{
+    width:80px;
+    height: 80px;
+}
+img{
+    width:75px;
+    height: 75px;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    border-radius: 50%;;
+}
+
+.welcome{
+height:75px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.name{
+    padding: 0px;
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.sal{
+    font-size: 14px;
+    color:#545454;
+    margin: 0;
+    align-self: flex-start;
+}
+
+.balance{
+    margin-top: 16px;
+}
+
+.day{
+margin-top: 15px;
+color:black;
+}
+
+.curr-bal{
+    margin-top: 15px;
+}
+.bla_sub_det{
+    margin-top: 3px;
+   margin-bottom: 0;
+   font-weight: 500;
+   color:grey 
+}
+
+.otr-bal{
+    margin-top: 15px;
+    font-weight: 650;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    width:100px;
+    margin-top: 20px;
+    background-color:#4935ff;
+    color: white;
+    border-radius: 5px;
+    gap:5px;
+    margin-right:45px ;
+}
+
+.lower{
+    margin-top: 55px;
+}
+
+.lower_head{
+    color: #525252;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.date{
+    font-size: 12px;
+    font-weight: 500;
+    color:grey;
+}
+
+.tran{
+    font-size: 12px;
+    font-weight: 500;
+    color:#525252;
+}
+
+hr{
+    margin: 15px 0px;
+    border-top: 1px solid #d7d4d4f3;
+}
+
+
+@media screen and (max-width:500px) {
+    .container-user{
+      width:100%;
+      margin-left: 25px;
+      background-color: white;
+
+  }
+  .balance{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+}
+    .today_info{
+       flex-basis: 300px; 
+    }
+    .user_details{
+       justify-content: flex-start;
+    }
+    .curr-bal{
+        font-size: 44px;
+    }
+    .bla_sub_det{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .otr-bal{
+        font-size: 22px;
+    }
+    .dropdown{
+     
+        padding: 18px;
+        width:250px;
+   
+    }
+    .day{
+       font-size: 18px;
+        }
+    .lower_head{
+        font-size: 18px;
+    }
+    .date{
+        font-size: 16px;
+    }
+    
+    .tran{
+        font-size: 16px;
+    }
+
+  }

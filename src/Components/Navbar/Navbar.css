@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    /* width:60px;    */
+    justify-content: center;
+    align-items: center;
+    flex : 0.40;
+
+}
+
+.upper{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+     gap:25px;   
+     justify-content: center;
+
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    gap:25px;
+    margin-top: 25px;
+
+}
+.bottom {
+    flex-direction: column;
+    flex-grow: 1;
+    gap:25px;
+    justify-content: center;
+  }
+  
+  .icon-container {
+    position: relative;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .notification-dot {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    width: 6px;
+    height: 6px;
+    background-color: #87b1ff; /* You can change the color of the notification dot here */
+    border-radius: 50%;
+  }
+  
+
+.icon{
+    
+    color:rgb(125, 124, 124);
+    font-size: 20px;
+    padding: 8px;
+    font-weight: 800;
+    font-weight: bold;
+
+}
+
+.icon:hover{
+    background-color: #4935ff;;
+    color:white;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width:500px) {
+  .container{
+    flex: 1;
+    flex-direction: row;
+    order:4;
+    position: relative;
+   }
+
+  .upper{
+    display: none;
+  }
+
+ .middle{
+  flex-direction: row;
+  justify-content: space-around;
+  position: static;
+  top: 0;
+ }
+ .bottom{
+  display: none;
+  
+ }
+
+}

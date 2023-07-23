@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-chart{
+    /* width:50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex : 5;
+}
+
+.inner_con_chart{
+    width: 85%;
+    height: 90%;
+  
+}
+
+.retire{
+    font-size: 14px;
+    font-weight: 650;
+    color:#4935ff;
+}
+
+.start{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info{
+    display: flex;
+    margin-top: 20px;
+    gap:30px;
+}
+
+.details{
+ flex: 1;
+}
+
+.amt_det{
+    font-size: 24px;
+}
+
+.amt_sub_head{
+    font-size: 13px;
+    font-weight: 500;
+    color:#c4c4c4;
+    margin:8px 0px;
+}
+
+.hr_chart{
+    border: 1px solid #8b7eff;
+}
+
+.contri{
+      margin-top: 20px;
+      font-weight: 600; 
+      font-size: 17px; 
+      margin-bottom: 15px;
+      color:#4d4d4d;
+    }
+.bar_details{
+  display: flex;
+}
+
+.bar{
+    margin-top: 15px;
+}
+
+
+
+.legends{
+    flex:1;
+    gap:30px;
+}
+
+.legends_details{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.color_emp{
+    display: inline-block;
+    width:12px;
+    height:8px;
+    border-radius: 4px;
+    background-color:#0800a3;
+    margin-right: 5px;
+}
+
+.desig{
+    color:#c4c4c4;
+    
+}
+
+.pie_section{
+margin-top: 10px;
+}
+
+.compare_head{
+  color:#5f5f5f;
+  font-weight:600 ;
+  font-size: 18px;  
+}
+
+.compare_sub{
+    margin-top: 8px;
+    color:#c9c9c9;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pie_chart{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie_options{
+    width:23%;
+}
+
+.option_head{
+    color:#727272;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.option{
+  margin-left: 5px;
+  color:#898989; 
+  
+}
+
+.chart{
+    display: flex;
+    gap:15px;
+}
+
+@media screen and (max-width:500px) {
+    .container-chart{
+
+      display:   flex;
+      
+     
+  }
+  
+  .bar_details {
+    flex : 0.75,
+  }
+  
+.legends_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap:10px;
+    font-weight: 500;
+    font-size: 14px;
+    width:100%;
+}
+.inner_con_chart{
+    width: 45%;
+    height: 90%;
+  
+}
+.chart{
+    gap:0px;
+    justify-content: space-around;
+}
+
+.info{
+    flex-wrap: wrap;
+}
+.big{
+    flex-basis: 400px;
+}
+.retire{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.amt_sub_head{
+    font-size: 12px;
+    font-weight: 400;
+}
+.start{
+    font-size: 22px;
+}
+
+
+  }
+
