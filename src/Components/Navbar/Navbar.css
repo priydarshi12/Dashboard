@@ -71,9 +71,10 @@
 
 @media screen and (max-width:500px) {
   .container{
+    width: 100%;
     flex: 1;
-    flex-direction: row;
     order:4;
+    flex-direction: row;
     position: relative;
    }
 
@@ -89,7 +90,6 @@
  }
  .bottom{
   display: none;
-  
  }
 
 }

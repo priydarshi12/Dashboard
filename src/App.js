@@ -7,7 +7,7 @@ import User from "./Components/User/User";
 function App() {
   return (
     <div className="App">
-      <Navbar className="nav"/>
+      <Navbar />
       <User />
       <Chart />
       <SideBar />

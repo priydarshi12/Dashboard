@@ -143,12 +143,17 @@ margin-top: 10px;
 
 @media screen and (max-width:500px) {
     .container-chart{
-
-      display:   flex;
-      
-     
+      justify-content: center;
+       width: 100%;
   }
-  
+  .inner_con_chart{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    height: 100%;
+    width: 90%;
+   
+}
   .bar_details {
     flex : 0.75,
   }
@@ -161,17 +166,10 @@ margin-top: 10px;
     gap:10px;
     font-weight: 500;
     font-size: 14px;
-    width:100%;
+    width:90%;
 }
-.inner_con_chart{
-    width: 45%;
-    height: 90%;
-  
-}
-.chart{
-    gap:0px;
-    justify-content: space-around;
-}
+
+
 
 .info{
     flex-wrap: wrap;
@@ -190,7 +188,27 @@ margin-top: 10px;
 .start{
     font-size: 22px;
 }
-
-
+.pie_chart{
+    flex-direction: column;
+}
+.chart{
+    gap: -100px;
+    width:100%;
+    justify-content: space-around;
+}
+.pie_options{
+    width:100%;
+}
+.compare_head{
+    color:#5f5f5f;
+    font-weight:500 ;
+    font-size: 16px;  
+  }
+  .average{
+    display: none;
+  }
+  .option_head{
+    font-size: 16px;
+  }
   }
 

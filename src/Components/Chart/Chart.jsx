@@ -86,7 +86,7 @@ const Chart = () => {
           </section>
         </div>
         <section className="bar" >
-          {width < 500 ? (<StackedBarChart width = {350}/>) : <StackedBarChart width ={630}/>}
+          {width < 500 ? (<StackedBarChart width = {300}/>) : <StackedBarChart width ={630}/>}
         </section>
         <section className="pie_section">
           <h3 className="compare_head">How do I compare to my peers?</h3>
@@ -118,7 +118,9 @@ const Chart = () => {
               </span>
             </div>
             <div className="chart">
-              <DonutChart percent={78} title={"Average"}/>
+            <div className="average">
+              <DonutChart percent={78} title={"Average"} />
+              </div>
               <DonutChart percent={95} title={"Top"}/>
               <DonutChart percent={59} title={"Me"}/>
             </div>

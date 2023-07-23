@@ -157,4 +157,10 @@ input[type="range"] {
   display: none;
 }
 .help{display: none;}
+
+.side-btn{
+  margin-left: -53px;
+  width: 100vw;
+  border-radius: 0;
+}
   }
